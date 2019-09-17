@@ -19,7 +19,7 @@ zuul:
         serviceId: item-service
         stripPrefix: false
 
-logging.level.org.springframework: info
+logging.level.org.springframework: trace
 
 management:
   endpoints:
