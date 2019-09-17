@@ -18,7 +18,16 @@ zuul:
         path: /items/**
         serviceId: item-service
         stripPrefix: false
+    test-service:
+      sensitiveHeaders:
+        path: /test/**
+        serviceId: test-service
+        stripPrefix: true
 
+test-service:
+  ribbon:
+    listOfServers: https://httpbin.org
+    
 logging.level.org.springframework: trace
 
 management:
