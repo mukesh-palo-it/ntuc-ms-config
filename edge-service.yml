@@ -28,7 +28,7 @@ test-service:
   ribbon:
     listOfServers: https://httpbin.org/
     
-logging.level.org.springframework: trace
+logging.level.org.springframework: info
 
 management:
   endpoints:
