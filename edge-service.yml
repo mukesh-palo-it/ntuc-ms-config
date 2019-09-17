@@ -26,7 +26,7 @@ zuul:
 
 test-service:
   ribbon:
-    listOfServers: https://httpbin.org
+    listOfServers: https://httpbin.org/
     
 logging.level.org.springframework: trace
 
